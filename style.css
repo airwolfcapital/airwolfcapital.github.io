@@ -18,6 +18,8 @@ body {
 #one {
   background-color: #B11623;
   height: 100vh;
+  min-width: 800px;
+  min-height: 450px;
 }
 
 .content {
