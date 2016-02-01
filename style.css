@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  background-color: #292C37;
+  color: #292C37;
+}
+
+.noselect {
+  cursor: default;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* IE/Edge */
+  user-select: none;           /* non-prefixed version, currently
+                                  not supported by any browser */
+}
+
+#one {
+  background-color: #B11623;
+  height: 100vh;
+}
+
+.content {
+  width: 80%;
+  min-width: 800px;
+  margin: 0 auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+h1.title {
+  margin-top: 0;
+  margin-bottom: 15px;
+  color: #292C37;
+  line-height: .75em;
+  font-family: 'Kanit', sans-serif;
+  font-weight: 900;
+  font-style: italic;
+  font-size: 160px;
+  padding: 0;
+  text-align: center;
+}
+
+h3 {
+  margin-top: 0;
+  color: #9F111B;
+  line-height: 1em;
+  font-family: 'Kanit', sans-serif;
+  font-weight: 900;
+  font-style: italic;
+  font-size: 60px;
+  letter-spacing: -1px;
+  padding: 0;
+  text-align: center;
+}
+
+.byline-link {
+  color: #9F111B;
+  text-decoration: none;
+}
+
+.byline-link:hover {
+  color: #292C37;
+}
+
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Kanit Black'), local('Kanit-Black'), url(https://fonts.gstatic.com/s/kanit/v1/nHWPqPxIN48Hdckb0RSgixkAz4rYn47Zy2rvigWQf6w.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Kanit Black'), local('Kanit-Black'), url(https://fonts.gstatic.com/s/kanit/v1/Si9-GTyWVP2DNn3VdLOJt3YhjbSpvc47ee6xR_80Hnw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
