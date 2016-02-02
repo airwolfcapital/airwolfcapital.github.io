@@ -62,7 +62,7 @@ h3 {
 }
 
 .byline-link:hover {
-  color: #EE2445;
+  border: 1px solid #292C37;
 }
 
 }
